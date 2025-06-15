@@ -12,6 +12,8 @@
 - **CI/CD**: GitHub Actions
 - **Аутентификация**: Django REST Framework Authtoken
 
+## Репозиторий - https://github.com/Karaatt/foodgram-st
+
 ## Установка и запуск локально
 
 ### Шаги установки
@@ -58,7 +60,7 @@
 6. **Загрузите тестовые данные**:
 
    ```bash
-   docker compose exec backend python manage.py load_dataset
+   docker compose exec backend python manage.py load_database
    ```
 
 7. **Доступ к проекту**:
